@@ -1,0 +1,13 @@
+.botao {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.9rem;
+  color: var(--color-colmeia);
+  padding: 6px 4px;
+  margin-bottom: 16px;
+}
+
+.botao:hover {
+  color: var(--color-mel);
+}

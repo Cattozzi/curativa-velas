@@ -1,0 +1,77 @@
+.card {
+  position: relative;
+  background: var(--color-branco);
+  border-radius: 28px 28px 14px 14px;
+  padding: 28px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+  width: 260px;
+  box-shadow: 0 1px 0 rgba(59, 42, 26, 0.06);
+  border: 1px solid rgba(59, 42, 26, 0.08);
+}
+
+.favoritoBotao {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  font-size: 1.1rem;
+  color: rgba(59, 42, 26, 0.25);
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.favoritoBotao:hover {
+  transform: scale(1.1);
+}
+
+.favoritoAtivo {
+  color: var(--color-terracota);
+}
+
+.iconeArea {
+  margin-bottom: 4px;
+}
+
+.categoria {
+  font-size: 0.75rem;
+  color: var(--color-ervas);
+}
+
+.nome {
+  font-family: var(--fonte-display);
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.aroma {
+  font-size: 0.85rem;
+  color: var(--color-mel);
+  margin: 0;
+}
+
+.descricao {
+  font-size: 0.85rem;
+  color: rgba(59, 42, 26, 0.75);
+  margin: 0;
+}
+
+.rodape {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(59, 42, 26, 0.08);
+  font-size: 0.85rem;
+}
+
+.preco {
+  font-weight: 600;
+  color: var(--color-colmeia);
+}
+
+.duracao {
+  color: rgba(59, 42, 26, 0.55);
+}

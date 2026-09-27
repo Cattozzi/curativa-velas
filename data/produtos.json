@@ -1,0 +1,101 @@
+[
+  {
+    "id": "favo-natural",
+    "nome": "Vela Favo Natural",
+    "categoria": "cera-de-abelha",
+    "categoriaLabel": "Cera de abelha pura",
+    "preco": 39.9,
+    "aroma": "Aroma suave de mel silvestre",
+    "duracaoHoras": 18,
+    "corCera": "#E4A93B",
+    "descricao": "Vela artesanal moldada em cera de abelha 100% pura, com o formato natural de um favo e queima limpa, sem fuligem."
+  },
+  {
+    "id": "colmeia-grande",
+    "nome": "Vela Colmeia Grande",
+    "categoria": "cera-de-abelha",
+    "categoriaLabel": "Cera de abelha pura",
+    "preco": 64.9,
+    "aroma": "Aroma suave de mel silvestre",
+    "duracaoHoras": 40,
+    "corCera": "#D4922A",
+    "descricao": "Nossa vela mais duradoura, esculpida à mão no formato de colmeia, ideal para ambientes maiores."
+  },
+  {
+    "id": "mini-favo",
+    "nome": "Mini Vela Favo",
+    "categoria": "cera-de-abelha",
+    "categoriaLabel": "Cera de abelha pura",
+    "preco": 22.9,
+    "aroma": "Aroma suave de mel silvestre",
+    "duracaoHoras": 8,
+    "corCera": "#EAB559",
+    "descricao": "Perfeita para experimentar a linha natural ou para presentear em pequenas ocasiões."
+  },
+  {
+    "id": "lavanda-campos",
+    "nome": "Vela Lavanda dos Campos",
+    "categoria": "aromaticas",
+    "categoriaLabel": "Aromáticas",
+    "preco": 34.9,
+    "aroma": "Lavanda francesa com fundo amadeirado",
+    "duracaoHoras": 25,
+    "corCera": "#9B8AC4",
+    "descricao": "Óleo essencial de lavanda em base de cera de abelha, indicada para relaxar antes de dormir."
+  },
+  {
+    "id": "baunilha-cacau",
+    "nome": "Vela Baunilha & Cacau",
+    "categoria": "aromaticas",
+    "categoriaLabel": "Aromáticas",
+    "preco": 36.9,
+    "aroma": "Baunilha doce com toque de cacau",
+    "duracaoHoras": 25,
+    "corCera": "#8B5A3C",
+    "descricao": "Combinação aconchegante para tardes frias, com aroma que se espalha suavemente pelo ambiente."
+  },
+  {
+    "id": "alecrim-limao",
+    "nome": "Vela Alecrim e Capim-Limão",
+    "categoria": "aromaticas",
+    "categoriaLabel": "Aromáticas",
+    "preco": 34.9,
+    "aroma": "Alecrim fresco com capim-limão",
+    "duracaoHoras": 25,
+    "corCera": "#8FA06E",
+    "descricao": "Aroma revigorante, ótimo para ambientes de trabalho e estudo durante o dia."
+  },
+  {
+    "id": "kit-boas-vindas",
+    "nome": "Kit Boas-Vindas",
+    "categoria": "kits",
+    "categoriaLabel": "Kits & presentes",
+    "preco": 79.9,
+    "aroma": "3 minis: mel, lavanda e baunilha",
+    "duracaoHoras": 24,
+    "corCera": "#C97C1E",
+    "descricao": "Conjunto com três mini velas em embalagem de juta, ideal para uma primeira experiência com a marca."
+  },
+  {
+    "id": "kit-spa",
+    "nome": "Kit Spa Natural",
+    "categoria": "kits",
+    "categoriaLabel": "Kits & presentes",
+    "preco": 89.9,
+    "aroma": "Lavanda, eucalipto e camomila",
+    "duracaoHoras": 60,
+    "corCera": "#7C8B6F",
+    "descricao": "Três velas relaxantes acompanhadas de um cartão com um pequeno ritual de autocuidado."
+  },
+  {
+    "id": "caixa-presente",
+    "nome": "Caixa Presente Individual",
+    "categoria": "kits",
+    "categoriaLabel": "Kits & presentes",
+    "preco": 49.9,
+    "aroma": "Você escolhe o aroma",
+    "duracaoHoras": 25,
+    "corCera": "#B85C38",
+    "descricao": "Uma vela à sua escolha em caixa artesanal com cartão para dedicatória."
+  }
+]

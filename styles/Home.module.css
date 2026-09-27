@@ -1,0 +1,136 @@
+.hero {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 64px 24px;
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.heroTexto {
+  flex: 1 1 380px;
+}
+
+.heroSubtitulo {
+  color: var(--color-ervas);
+  font-size: 0.9rem;
+  margin: 0 0 8px;
+}
+
+.heroTitulo {
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.1;
+  margin-bottom: 16px;
+}
+
+.heroDescricao {
+  max-width: 46ch;
+  color: rgba(59, 42, 26, 0.8);
+  margin-bottom: 24px;
+}
+
+.heroBotao {
+  display: inline-block;
+  background: var(--color-mel);
+  color: var(--color-branco);
+  padding: 12px 24px;
+  border-radius: 999px;
+  font-weight: 500;
+  transition: background 0.2s ease;
+}
+
+.heroBotao:hover {
+  background: var(--color-colmeia);
+}
+
+.heroFavo {
+  flex: 1 1 260px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  max-width: 260px;
+}
+
+.hex {
+  width: 70px;
+  height: 80px;
+  background: var(--color-mel);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  opacity: 0.85;
+}
+
+.hex:nth-child(2) {
+  background: var(--color-terracota);
+  margin-top: -20px;
+}
+
+.hex:nth-child(3) {
+  background: var(--color-ervas);
+}
+
+.hex:nth-child(4) {
+  background: var(--color-colmeia);
+  margin-top: -20px;
+}
+
+.hex:nth-child(5) {
+  background: var(--color-mel);
+  opacity: 0.6;
+}
+
+.categorias {
+  background: var(--color-branco);
+  padding: 64px 24px;
+}
+
+.categoriasTitulo {
+  max-width: 1080px;
+  margin: 0 auto 32px;
+  font-size: 1.6rem;
+}
+
+.categoriasGrade {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.categoriaCard {
+  flex: 1 1 260px;
+  background: var(--color-cera);
+  border-radius: 20px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  transition: transform 0.2s ease;
+}
+
+.categoriaCard:hover {
+  transform: translateY(-4px);
+}
+
+.categoriaCard h3 {
+  font-size: 1.1rem;
+}
+
+.categoriaCard p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: rgba(59, 42, 26, 0.75);
+}
+
+@media (max-width: 720px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .heroDescricao {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

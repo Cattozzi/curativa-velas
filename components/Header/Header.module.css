@@ -1,0 +1,75 @@
+.header {
+  background: var(--color-branco);
+  border-bottom: 1px solid rgba(59, 42, 26, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.marca {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--fonte-display);
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--color-colmeia);
+}
+
+.marcaIcone {
+  width: 28px;
+  height: 28px;
+  display: block;
+  object-fit: contain;
+}
+
+.nav {
+  display: flex;
+  gap: 24px;
+}
+
+.link {
+  font-size: 0.95rem;
+  color: var(--color-colmeia);
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+.link:hover {
+  border-color: var(--color-mel);
+}
+
+.favoritos {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.9rem;
+  color: var(--color-terracota);
+}
+
+.coracao {
+  font-size: 1.1rem;
+}
+
+@media (max-width: 560px) {
+  .container {
+    flex-wrap: wrap;
+  }
+
+  .nav {
+    order: 3;
+    width: 100%;
+    justify-content: center;
+  }
+}

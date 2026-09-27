@@ -1,0 +1,70 @@
+:root {
+  --color-mel: #c97c1e; /* âmbar de mel — cor primária */
+  --color-cera: #f2e4c4; /* creme de cera de abelha — fundo */
+  --color-colmeia: #3b2a1a; /* marrom profundo — texto */
+  --color-noturno: #211611; /* quase-preto — seções escuras */
+  --color-ervas: #7c8b6f; /* verde-sálvia — acento aromáticas */
+  --color-terracota: #b85c38; /* terracota suave — acento kits */
+  --color-branco: #fffdf8; /* branco quente — cartões */
+
+  --fonte-display: 'Fraunces', Georgia, serif;
+  --fonte-texto: 'Work Sans', 'Segoe UI', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--color-cera);
+  color: var(--color-colmeia);
+  font-family: var(--fonte-texto);
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--fonte-display);
+  margin: 0;
+  color: var(--color-noturno);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-mel);
+  outline-offset: 2px;
+}
+
+::selection {
+  background: var(--color-mel);
+  color: var(--color-branco);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
