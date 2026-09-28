@@ -12,35 +12,18 @@ Como o foco do projeto e a avaliação é o desenvolvimento da estrutura e o bac
 - React 18 (useState, props, .map())
 - CSS Modules + Flexbox
 
-## Estrutura de pastas
-
-```
-favo-velas/
-├─ components/
-│  ├─ Header/        # marca, navegação e contador de favoritos
-│  ├─ Footer/
-│  ├─ BackButton/     # botão "voltar" reutilizável
-│  ├─ CandleIcon/      # ícone SVG da vela, colorido via prop
-│  └─ Card/           # card de produto (recebe "produto" via props)
-├─ data/
-│  └─ produtos.json    # base de dados dos produtos (9 velas, 3 categorias)
-├─ pages/
-│  ├─ index.jsx        # Home: hero + seleção de categorias
-│  └─ catalogo.jsx      # Catálogo: filtro + grade de cards
-└─ styles/              # globals.css + um módulo CSS por página
-```
 
 ## Funcionalidades implementadas
 
-- **Componentização pai/filho**: `Header`, `Footer`, `BackButton`, `CandleIcon` e `Card` em pastas
-  próprias, importados com `import`/`export default`.
-- **Props e listas**: `catalogo.jsx` lê `data/produtos.json` e usa `.map()` para renderizar um
-  `Card` por produto, passando os dados via props e definindo a `key`.
+- **Componentização pai/filho**: Header, Footer, BackButton, CandleIcon e Card em pastas
+  próprias, importados com import/export default.
+- **Props e listas**: catalogo.jsx lê data/produtos.json e usa .map() para renderizar um
+  Card por produto, passando os dados via props e definindo a key.
 - **Estado reativo (`useState`)**: favoritar/desfavoritar uma vela (coração no card) e o filtro de
-  categoria, ambos disparados por `onClick`.
-- **Roteamento SPA**: duas rotas (`/` e `/catalogo`) navegadas com `next/link`, sem recarregar a
-  página, mais um `BackButton` para voltar à Home. O filtro de categoria também atualiza a URL
-  (`?categoria=...`) via `router.push` com `shallow: true`.
+  categoria, ambos disparados por onClick.
+- **Roteamento SPA**: duas rotas (/ e /catalogo) navegadas com next/link, sem recarregar a
+  página, mais um BackButton para voltar à Home. O filtro de categoria também atualiza a URL
+  (?categoria=...) via router.push com shallow: true.
 - **Layout com Flexbox**: header, hero, grade de categorias e grade de cards — todos em Flexbox,
   responsivos até mobile.
 
