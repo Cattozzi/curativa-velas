@@ -37,6 +37,7 @@ export default function Home() {
           <div className={styles.heroTexto}>
             <p className={styles.heroSubtitulo}>Velas naturais, feitas à mão</p>
             <h1 className={styles.heroTitulo}>A luz que vem da colmeia</h1>
+            <h2 className={styles.heroSubtitulo}>*****ATENÇÃO: Este site é apenas um trabalho acadêmico, os valores aqui não refletem o valor real dos produtos****</h2>
             <p className={styles.heroDescricao}>
               Trabalhamos direto com apicultores parceiros para transformar cera de abelha pura
               e óleos essenciais em velas de queima limpa e aroma duradouro.
