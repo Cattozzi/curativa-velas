@@ -15,15 +15,16 @@ Como o foco do projeto e a avaliação é o desenvolvimento da estrutura e o bac
 
 ## Funcionalidades implementadas
 
-- **Componentização pai/filho**: Header, Footer, BackButton, CandleIcon e Card em pastas
-  próprias, importados com import/export default.
-- **Props e listas**: catalogo.jsx lê data/produtos.json e usa .map() para renderizar um
-  Card por produto, passando os dados via props e definindo a key.
+- **Componentização pai/filho**: `Header`, `Footer`, `BackButton`, `CandleIcon` e `Card` em pastas
+próprias, importados com `import`/`export default`.
+- **Props e listas**: `catalogo.jsx` lê `data/produtos.json` e usa `.map()` para renderizar um
+`Card` por produto, passando os dados via props e definindo a `key`.
 - **Estado reativo (`useState`)**: favoritar/desfavoritar uma vela (coração no card) e o filtro de
-  categoria, ambos disparados por onClick.
-- **Roteamento SPA**: duas rotas (/ e /catalogo) navegadas com next/link, sem recarregar a
-  página, mais um BackButton para voltar à Home. O filtro de categoria também atualiza a URL
-  (?categoria=...) via router.push com shallow: true.
+categoria, ambos disparados por `onClick`.
+- **Roteamento SPA**: duas rotas (`/` e `/catalogo`) navegadas com `next/link`, sem recarregar a
+página, mais um `BackButton` para voltar à Home. O filtro de categoria também atualiza a URL
+(`?categoria=...`) via `router.push` com `shallow: true`.
 - **Layout com Flexbox**: header, hero, grade de categorias e grade de cards — todos em Flexbox,
-  responsivos até mobile.
+responsivos até mobile.
+
 
