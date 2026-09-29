@@ -68,8 +68,25 @@
   }
 
   .nav {
-    order: 3;
+    /*order: 3;
     width: 100%;
-    justify-content: center;
+    justify-content: center;*/
+  display: flex;
+    align-items: center;
+    gap: 24px;
   }
+
+  .instagram {
+  font-size: 0.95rem;
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--color-mel);
+  color: var(--color-colmeia);
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.instagram:hover {
+  background: var(--color-mel);
+  color: var(--color-branco);
+}
 }
