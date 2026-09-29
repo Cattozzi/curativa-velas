@@ -17,6 +17,14 @@ export default function Header({ favoritosCount = 0 }) {
           <Link href="/catalogo" className={styles.link}>
             Catálogo
           </Link>
+          <a
+             href="https://www.instagram.com/curativa.velas/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.instagram}
+            >
+    Instagram
+  </a>
         </nav>
 
         <div className={styles.favoritos} aria-label={`${favoritosCount} velas favoritas`}>
